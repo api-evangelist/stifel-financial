@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "stifel": "https://www.stifel.com/vocab#",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+
+    "FinancialAccount": "BankAccount",
+    "InvestmentAccount": "stifel:InvestmentAccount",
+    "BrokerageAccount": "stifel:BrokerageAccount",
+    "WealthTracker": "stifel:WealthTracker",
+
+    "accountNumber": "accountNumber",
+    "accountBalance": "value",
+    "holdings": "stifel:holdings",
+    "advisor": "advisor",
+    "institution": "bankOrCreditUnion",
+    "currency": "currency",
+
+    "name": "name",
+    "description": "description",
+    "url": "url"
+  }
+}

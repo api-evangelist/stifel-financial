@@ -1,0 +1,63 @@
+vocabulary:
+  title: Stifel Financial Vocabulary
+  description: >-
+    Domain vocabulary for Stifel Financial covering wealth management, investment
+    banking, brokerage services, and open banking data access through
+    third-party aggregation platforms.
+  version: "1.0"
+  created: "2026-05-02"
+  modified: "2026-05-02"
+  source: https://www.stifel.com/
+
+terms:
+  - term: Wealth Tracker
+    definition: >-
+      Stifel's client-facing online portal enabling investors to monitor
+      their investment account performance, holdings, and financial activity.
+    tags: [Client Portal, Wealth Management]
+
+  - term: Open Banking Aggregation
+    definition: >-
+      Third-party data aggregation services (Plaid, Finicity/Mastercard) that
+      provide API access to Stifel bank account data for authorized financial
+      applications with customer consent.
+    tags: [Open Banking, Data Aggregation]
+
+  - term: Investment Banking
+    definition: >-
+      Advisory and capital markets services provided by Stifel to corporate
+      clients including mergers and acquisitions, equity underwriting, and
+      debt capital markets.
+    tags: [Investment Banking, Capital Markets]
+
+  - term: Securities Brokerage
+    definition: >-
+      Stifel's core service of facilitating the buying and selling of securities
+      (stocks, bonds, mutual funds) on behalf of individual and institutional clients.
+    tags: [Brokerage, Trading]
+
+  - term: Financial Advisory
+    definition: >-
+      Personalized investment advice and portfolio management services delivered
+      by Stifel financial advisors to individual and institutional clients.
+    tags: [Wealth Management, Advisory]
+
+  - term: Finicity
+    definition: >-
+      Mastercard's open banking platform (formerly Finicity) that enables
+      third-party access to Stifel bank account data through a standardized
+      API aggregation service.
+    aliases: [Mastercard Open Banking]
+    tags: [Open Banking, Data Aggregation, Finicity]
+
+  - term: Plaid
+    definition: >-
+      A financial data aggregation platform that enables third-party applications
+      to connect to Stifel Trust Company accounts for data access with customer consent.
+    tags: [Open Banking, Data Aggregation, Plaid]
+
+  - term: Fortune 500
+    definition: >-
+      Stifel Financial Corp. is listed among Fortune 500 companies, indicating
+      it is one of the 500 largest US corporations by revenue.
+    tags: [Corporate, Classification]
