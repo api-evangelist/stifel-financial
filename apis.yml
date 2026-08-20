@@ -25,6 +25,13 @@ tags:
   - Wealth Management
   - Investment Banking
   - Open Banking
+  - Financial-Services
+  - Fortune 1000
+tags_raw:
+  - Finance
+  - Wealth Management
+  - Investment Banking
+  - Open Banking
   - Financial Services
   - Fortune 1000
 url: >-
@@ -70,6 +77,10 @@ apis:
       investors to monitor account performance, holdings, and financial activity online.
     humanURL: https://www.stifel.com/Tracker/Support/Overview
     tags:
+      - Wealth Management
+      - Portfolio-Management
+      - Client Portal
+    tags_raw:
       - Wealth Management
       - Portfolio Management
       - Client Portal
