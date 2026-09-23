@@ -1,7 +1,9 @@
 ---
 title: Chen X. Na - Stifel Financial Corp.
 url: https://www.linkedin.com/in/chen-x-na-26b9867
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Stifel Financial" press release artificial intelligence'
 position: 5
 source: serpapi-google
