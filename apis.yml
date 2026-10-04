@@ -36,7 +36,7 @@ tags:
   - Wealth Management
   - Investment Banking
   - Open Banking
-  - Financial-Services
+  - Financial Services
   - Fortune 1000
 tags_raw:
   - Finance
@@ -45,6 +45,7 @@ tags_raw:
   - Open Banking
   - Financial Services
   - Fortune 1000
+  - Financial-Services
 url: >-
   https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/apis.yml
 created: '2026-05-02'
@@ -89,12 +90,13 @@ apis:
     humanURL: https://www.stifel.com/Tracker/Support/Overview
     tags:
       - Wealth Management
-      - Portfolio-Management
+      - Portfolio Management
       - Client Portal
     tags_raw:
       - Wealth Management
       - Portfolio Management
       - Client Portal
+      - Portfolio-Management
     properties:
       - type: Documentation
         url: https://www.stifel.com/Tracker/Support/Overview
