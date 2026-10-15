@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/stifel-financial/integrations
 - https://n8n.io/integrations/stifel-financial/
@@ -9,8 +9,49 @@ checked:
 - https://composio.dev/toolkits/stifel-financial
 - https://monid.ai/tools/stifel-financial
 - https://n8n.io/integrations/stifel-financial/
+- https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
 - https://zapier.com/apps/stifel-financial/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: ISO 10383 (MIC)
+  partner: null
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
+  source: mic
+  category: registered trading venues and market segments
+  contract_reference:
+    register: ISO 10383 Market Identifier Codes (ISO 20022 registration authority)
+    spec_file: null
+    standard: ISO 10383
+    role: venue operator
+    matched_domain: stifel.com
+    matched_by: domain+verified:stifel.com
+    categories:
+    - SINT
+    operating_mics:
+    - SEBA
+    - STFL
+    mics:
+    - mic: SEBA
+      operating_mic: SEBA
+      segment: OPRT
+      market: STIFEL EUROPE BANK AG
+      category: SINT
+      legal_name: STIFEL EUROPE BANK AG
+      country: DE
+    - mic: STFL
+      operating_mic: STFL
+      segment: OPRT
+      market: STIFEL NICOLAUS EUROPE LIMITED
+      category: SINT
+      legal_name: ''
+      country: GB
+    detected_by: sweep-capital-markets.py
+    detected: '2026-10-15'
+  detected_by: sweep-capital-markets.py
+  first_seen: '2026-10-15'
 templates: []
