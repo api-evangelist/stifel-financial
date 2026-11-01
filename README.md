@@ -66,73 +66,114 @@
 
 Stifel Financial is a financial services holding company whose subsidiaries provide securities brokerage, investment banking, trading, investment advisory, and related financial services to individual investors, corporations, and government entities. Stifel bank accounts are accessible via open banking data aggregators including Plaid and Finicity (Mastercard) for third-party financial applications.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/stifel-financial/refs/heads/main/apis.yml)
+**Areas:** Finance · Wealth Management · Investment Banking · Open Banking · Financial Services · Fortune 1000
 
-## Scope
+## Stifel Financial on APIs.io
 
-- **Type:** Index
-- **Fortune 500:** Yes
+Everything profiled for Stifel Financial is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/stifel-financial/](https://apis.io/providers/stifel-financial/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Finance
-- Wealth Management
-- Investment Banking
-- Open Banking
-- Financial Services
+- [Stifel Bank Finicity Integration](https://apis.io/apis/stifel-financial/stifel-bank-finicity/) — Stifel Bank account data accessible via Finicity (Mastercard) open banking aggregation API, enabling third-party applications to retrieve account balances,…
+- [Stifel Bank Plaid Integration](https://apis.io/apis/stifel-financial/stifel-bank-plaid/) — Stifel Trust Company account data accessible via Plaid open banking aggregation API, enabling third-party applications to access financial account data…
+- [Stifel Wealth Tracker](https://apis.io/apis/stifel-financial/stifel-wealth-tracker/) — Stifel Wealth Tracker is a client-facing portfolio management portal enabling investors to monitor account performance, holdings, and financial activity online.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-05-02
-- **Modified:** 2026-05-02
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON-LD (1)
 
-### Stifel Bank Finicity Integration
+Linked-data contexts for the provider's vocabulary.
 
-Stifel Bank account data accessible via Finicity (Mastercard) open banking aggregation API.
+- [Stifel Financial Context](https://apis.io/jsonld/stifel-financial/stifel-financial-context/)
 
-**Human URL:** [https://fintable.io/coverage/banks/United%20States/4445_stifel](https://fintable.io/coverage/banks/United%20States/4445_stifel)
+#### Vocabulary (1)
 
-### Stifel Bank Plaid Integration
+The provider's domain terms, defined.
 
-Stifel Trust Company account data accessible via Plaid open banking aggregation API.
+- [Stifel Financial Vocabulary](https://apis.io/vocabularies/stifel-financial/stifel-financial-vocabulary/)
 
-**Human URL:** [https://fintable.io/coverage/banks/United%20States/31584_stifel-trust-company-client-point](https://fintable.io/coverage/banks/United%20States/31584_stifel-trust-company-client-point)
+#### Security (1)
 
-### Stifel Wealth Tracker
+Authentication, trust centre, and vulnerability disclosure.
 
-Client-facing portfolio management portal for monitoring investment accounts.
+- [Stifel Financial Domain Security](https://apis.io/security/stifel-financial/stifel-financial-domain-security/)
 
-**Human URL:** [https://www.stifel.com/Tracker/Support/Overview](https://www.stifel.com/Tracker/Support/Overview)
+#### Plans and pricing (1)
 
-## JSON-LD
+Published plans, tiers and prices.
 
-| Context | Description |
-|---|---|
-| [stifel-financial-context.jsonld](json-ld/stifel-financial-context.jsonld) | JSON-LD context mapping Stifel financial account vocabulary to schema.org |
+- [Stifel Financial Plans Pricing](https://apis.io/plans/stifel-financial/stifel-financial-plans-pricing/)
 
-## Vocabulary
+#### Rate limits (1)
 
-| Vocabulary | Description |
-|---|---|
-| [stifel-financial-vocabulary.yml](vocabulary/stifel-financial-vocabulary.yml) | Domain vocabulary for wealth management and open banking |
+Published request limits.
 
-## Notes
+- [Stifel Financial Rate Limits](https://apis.io/rate-limits/stifel-financial/stifel-financial-rate-limits/)
 
-Stifel Financial does not maintain a public developer API portal. Account data is accessible to authorized third-party applications through open banking aggregators:
+#### FinOps (1)
 
-- **Finicity (Mastercard Open Banking)**: [developer.mastercard.com/open-banking-us/documentation](https://developer.mastercard.com/open-banking-us/documentation/)
-- **Plaid**: [plaid.com/docs](https://plaid.com/docs/)
+What the API costs to run, by operation.
 
-## Common Properties
+- [Stifel Financial Finops](https://apis.io/finops/stifel-financial/stifel-financial-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.stifel.com)
-- [Technology](https://www.choosestifel.com/technology/)
-- [Open Banking Tracker](https://www.openbankingtracker.com/provider/stifel-bank-personal/apis)
+- [Blog](https://www.stifel.com/rss/headlines)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 11.3** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.7** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/stifel-financial/](https://apis.io/providers/stifel-financial/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Stifel Financial: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/stifel-financial/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
